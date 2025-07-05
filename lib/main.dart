@@ -12,9 +12,9 @@ void main() async {
       ? await Firebase.initializeApp(
           options: const FirebaseOptions(
               apiKey: "put the key here",
-              appId: "1:592245969296:android:9406f72b567e65e994e315",
-              messagingSenderId: "592245969296",
-              projectId: "flutterfirbase-f6191"
+              appId: "put appId",
+              messagingSenderId: "messaging id",
+              projectId: "project Id1"
               ))
       : await Firebase.initializeApp();
 
